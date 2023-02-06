@@ -2,28 +2,28 @@
 
 ## Table of Contents
 * data
-  * cleaned
-  * processed
-  * raw
+  * [cleaned](./data/cleaned/)
+  * [processed](./data/processed/)
+  * [raw](./data/raw/)
 * public
-  * images
-  * presentation
-  * visuals
+  * [images](./public/images/)
+  * [presentation](./public/presentation/)
+  * [visuals](./public/visuals/)
 * src
-  * 00_collect_data
+  * [00_collect_data](./src/00_collect_data)
     * landcover_data_collection
     * meteorology_data_collection_api_meteostat
     * meteorology_data_collection_api_POWER
     * wildfire_data_collection
-  * 01_cleaning_eda
+  * [01_cleaning_eda](./src/01_cleaning_eda)
     * 01.1_wildfires_cleaning
     * 01.2_meteorology_cleaning
     * 01.3_basic_EDA
     * 01.4_extended_EDA
-  * 02_processing
+  * [02_processing](./src/02_processing)
     * 02.1_meteorology_historical_preprocessing
     * 02.2_merging_data
-  * 03_modeling
+  * [03_modeling](./src/03_modeling)
     * 03_01_modeling(allfires)
     * 03_02_modeling(largefires)
     * 03_03_advanced_modeling
